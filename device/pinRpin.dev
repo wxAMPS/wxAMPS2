@@ -1,0 +1,582 @@
+<Device layers="7">
+    <Material name="p-si" thickness="0.01">
+        <Electric>
+            <Dielectric>7.2</Dielectric>
+            <Eg>1.9</Eg>
+            <Affinity>3.8</Affinity>
+            <Nc>3.2e20</Nc>
+            <Nv>3.2e20</Nv>
+            <mobility_n>1</mobility_n>
+            <mobility_p>0.2</mobility_p>
+            <Nd>0</Nd>
+            <Na>2e19</Na>
+        </Electric>
+        <Defect number="2">
+            <AcceptorLike_G>
+                <type>0</type>
+                <distribution>2</distribution>
+                <density>4e18</density>
+                <energy>0.76</energy>
+                <width>0.2</width>
+                <sigN>1.2e-15</sigN>
+                <sigP>1.2e-13</sigP>
+            </AcceptorLike_G>
+            <DonorLike_G>
+                <type>1</type>
+                <distribution>2</distribution>
+                <density>4e18</density>
+                <energy>1.07</energy>
+                <width>0.2</width>
+                <sigN>1.2e-13</sigN>
+                <sigP>1.2e-15</sigP>
+            </DonorLike_G>
+            <Band_tail exist="1">
+                <Conduction>
+                    <Energy_level>0.065</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-16</Sigma_electron>
+                    <Sigma_hole>1.2e-14</Sigma_hole>
+                </Conduction>
+                <Valence>
+                    <Energy_level>0.1</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-14</Sigma_electron>
+                    <Sigma_hole>1.2e-16</Sigma_hole>
+                </Valence>
+                <Mid-gap_States exist="0" />
+            </Band_tail>
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <alpha unit="m-1">
+                <waveLength nm="350">35300000.000000</waveLength>
+                <waveLength nm="400">26550000.000000</waveLength>
+                <waveLength nm="420">19250000.000000</waveLength>
+                <waveLength nm="440">13980000.000000</waveLength>
+                <waveLength nm="460">9948000.000000</waveLength>
+                <waveLength nm="480">6907000.000000</waveLength>
+                <waveLength nm="500">4660000.000000</waveLength>
+                <waveLength nm="520">3092000.000000</waveLength>
+                <waveLength nm="540">1967000.000000</waveLength>
+                <waveLength nm="560">1314000.000000</waveLength>
+                <waveLength nm="580">950000.000000</waveLength>
+                <waveLength nm="600">566000.000000</waveLength>
+                <waveLength nm="620">375900.000000</waveLength>
+                <waveLength nm="640">262400.000000</waveLength>
+                <waveLength nm="660">195100.000000</waveLength>
+                <waveLength nm="680">153600.000000</waveLength>
+                <waveLength nm="700">131000.000000</waveLength>
+                <waveLength nm="720">112000.000000</waveLength>
+                <waveLength nm="740">100000.000000</waveLength>
+                <waveLength nm="760">86900.000000</waveLength>
+                <waveLength nm="780">77200.000000</waveLength>
+                <waveLength nm="800">68300.000000</waveLength>
+                <waveLength nm="820">61300.000000</waveLength>
+                <waveLength nm="840">54700.000000</waveLength>
+                <waveLength nm="860">47800.000000</waveLength>
+                <waveLength nm="880">43900.000000</waveLength>
+                <waveLength nm="900">38900.000000</waveLength>
+            </alpha>
+        </Optical>
+        <Edge>0.5</Edge>
+        <Center>0.5</Center>
+    </Material>
+    <Material name="i-si" thickness="0.056">
+        <Electric>
+            <Dielectric>11.9</Dielectric>
+            <Eg>1.85</Eg>
+            <Affinity>3.8</Affinity>
+            <Nc>3.2e20</Nc>
+            <Nv>3.2e20</Nv>
+            <mobility_n>10</mobility_n>
+            <mobility_p>2</mobility_p>
+            <Nd>0</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="2">
+            <AcceptorLike_G>
+                <type>0</type>
+                <distribution>2</distribution>
+                <density>3e15</density>
+                <energy>0.7</energy>
+                <width>0.2</width>
+                <sigN>1.2e-15</sigN>
+                <sigP>1.2e-13</sigP>
+            </AcceptorLike_G>
+            <DonorLike_G>
+                <type>1</type>
+                <distribution>2</distribution>
+                <density>3e15</density>
+                <energy>1.</energy>
+                <width>0.2</width>
+                <sigN>1.2e-13</sigN>
+                <sigP>1.2e-15</sigP>
+            </DonorLike_G>
+            <Band_tail exist="1">
+                <Conduction>
+                    <Energy_level>0.028</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-16</Sigma_electron>
+                    <Sigma_hole>1.2e-14</Sigma_hole>
+                </Conduction>
+                <Valence>
+                    <Energy_level>0.047</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-14</Sigma_electron>
+                    <Sigma_hole>1.2e-16</Sigma_hole>
+                </Valence>
+                <Mid-gap_States exist="0" />
+            </Band_tail>
+        </Defect>
+        <Optical>
+            <A>1e4</A>
+            <B>0</B>
+            <alpha unit="m-1">
+                <waveLength nm="350">88150000.000000</waveLength>
+                <waveLength nm="400">57230000.000000</waveLength>
+                <waveLength nm="420">39940000.000000</waveLength>
+                <waveLength nm="440">29690000.000000</waveLength>
+                <waveLength nm="460">23030000.000000</waveLength>
+                <waveLength nm="480">18240000.000000</waveLength>
+                <waveLength nm="500">14450000.000000</waveLength>
+                <waveLength nm="520">11280000.000000</waveLength>
+                <waveLength nm="540">8569000.000000</waveLength>
+                <waveLength nm="560">6281000.000000</waveLength>
+                <waveLength nm="580">2887000.000000</waveLength>
+                <waveLength nm="600">1924000.000000</waveLength>
+                <waveLength nm="620">1251000.000000</waveLength>
+                <waveLength nm="640">757200.000000</waveLength>
+                <waveLength nm="660">428300.000000</waveLength>
+                <waveLength nm="680">217600.000000</waveLength>
+                <waveLength nm="700">98600.000000</waveLength>
+                <waveLength nm="720">35500.000000</waveLength>
+                <waveLength nm="740">31250.000000</waveLength>
+                <waveLength nm="760">27980.000000</waveLength>
+                <waveLength nm="780">13390.000000</waveLength>
+                <waveLength nm="800">6272.000000</waveLength>
+                <waveLength nm="820">2873.000000</waveLength>
+                <waveLength nm="840">1291.000000</waveLength>
+                <waveLength nm="860">571.500000</waveLength>
+                <waveLength nm="880">249.100000</waveLength>
+                <waveLength nm="900">100.000000</waveLength>
+            </alpha>
+        </Optical>
+        <Edge>0.5</Edge>
+        <Center>5</Center>
+    </Material>
+    <Material name="n-si" thickness="0.01">
+        <Electric>
+            <Dielectric>11.9</Dielectric>
+            <Eg>1.85</Eg>
+            <Affinity>3.8</Affinity>
+            <Nc>3.2e20</Nc>
+            <Nv>3.2e20</Nv>
+            <mobility_n>2</mobility_n>
+            <mobility_p>0.4</mobility_p>
+            <Nd>5e19</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="2">
+            <AcceptorLike_G>
+                <type>0</type>
+                <distribution>2</distribution>
+                <density>7.6e16</density>
+                <energy>0.7</energy>
+                <width>0.2</width>
+                <sigN>1.2e-15</sigN>
+                <sigP>1.2e-13</sigP>
+            </AcceptorLike_G>
+            <DonorLike_G>
+                <type>1</type>
+                <distribution>2</distribution>
+                <density>7.6e16</density>
+                <energy>1</energy>
+                <width>0.2</width>
+                <sigN>1.2e-13</sigN>
+                <sigP>1.2e-15</sigP>
+            </DonorLike_G>
+            <Band_tail exist="1">
+                <Conduction>
+                    <Energy_level>0.028</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-16</Sigma_electron>
+                    <Sigma_hole>1.2e-14</Sigma_hole>
+                </Conduction>
+                <Valence>
+                    <Energy_level>0.047</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-14</Sigma_electron>
+                    <Sigma_hole>1.2e-16</Sigma_hole>
+                </Valence>
+                <Mid-gap_States exist="0" />
+            </Band_tail>
+        </Defect>
+        <Optical>
+            <A>1e4</A>
+            <B>0</B>
+            <alpha unit="m-1">
+                <waveLength nm="350">88150000.000000</waveLength>
+                <waveLength nm="400">57230000.000000</waveLength>
+                <waveLength nm="420">39940000.000000</waveLength>
+                <waveLength nm="440">29690000.000000</waveLength>
+                <waveLength nm="460">23030000.000000</waveLength>
+                <waveLength nm="480">18240000.000000</waveLength>
+                <waveLength nm="500">14450000.000000</waveLength>
+                <waveLength nm="520">11280000.000000</waveLength>
+                <waveLength nm="540">8569000.000000</waveLength>
+                <waveLength nm="560">6281000.000000</waveLength>
+                <waveLength nm="580">2887000.000000</waveLength>
+                <waveLength nm="600">1924000.000000</waveLength>
+                <waveLength nm="620">1251000.000000</waveLength>
+                <waveLength nm="640">757200.000000</waveLength>
+                <waveLength nm="660">428300.000000</waveLength>
+                <waveLength nm="680">217600.000000</waveLength>
+                <waveLength nm="700">98600.000000</waveLength>
+                <waveLength nm="720">35500.000000</waveLength>
+                <waveLength nm="740">31250.000000</waveLength>
+                <waveLength nm="760">27980.000000</waveLength>
+                <waveLength nm="780">13390.000000</waveLength>
+                <waveLength nm="800">6272.000000</waveLength>
+                <waveLength nm="820">2873.000000</waveLength>
+                <waveLength nm="840">1291.000000</waveLength>
+                <waveLength nm="860">571.500000</waveLength>
+                <waveLength nm="880">249.100000</waveLength>
+                <waveLength nm="900">100.000000</waveLength>
+            </alpha>
+        </Optical>
+        <Edge>0.5</Edge>
+        <Center>0.5</Center>
+    </Material>
+    <Material name="rec" thickness="0.002">
+        <Electric>
+            <Dielectric>11.9</Dielectric>
+            <Eg>1.85</Eg>
+            <Affinity>3.9</Affinity>
+            <Nc>2.8e19</Nc>
+            <Nv>1.04e19</Nv>
+            <mobility_n>20</mobility_n>
+            <mobility_p>2</mobility_p>
+            <Nd>0</Nd>
+            <Na>1e19</Na>
+        </Electric>
+        <Defect number="1">
+            <DonorLike_G>
+                <type>1</type>
+                <distribution>2</distribution>
+                <density>1e19</density>
+                <energy>0.85</energy>
+                <width>0.1</width>
+                <sigN>1e-5</sigN>
+                <sigP>1e-5</sigP>
+            </DonorLike_G>
+            <Band_tail exist="1">
+                <Conduction>
+                    <Energy_level>0.01</Energy_level>
+                    <G0>1e20</G0>
+                    <Sigma_electron>1e-17</Sigma_electron>
+                    <Sigma_hole>1e-15</Sigma_hole>
+                </Conduction>
+                <Valence>
+                    <Energy_level>0.01</Energy_level>
+                    <G0>1e20</G0>
+                    <Sigma_electron>1e-15</Sigma_electron>
+                    <Sigma_hole>1e-17</Sigma_hole>
+                </Valence>
+                <Mid-gap_States exist="1">
+                    <Energy_level>0.55</Energy_level>
+                    <GA0>1e15</GA0>
+                    <Sigma_electronA>1e-17</Sigma_electronA>
+                    <Sigma_holeA>1e-15</Sigma_holeA>
+                    <GD0>1e15</GD0>
+                    <Sigma_electronD>1e-15</Sigma_electronD>
+                    <Sigma_holeD>1e-17</Sigma_holeD>
+                </Mid-gap_States>
+            </Band_tail>
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <alpha unit="m-1">
+                <waveLength nm="350">29400000.000000</waveLength>
+                <waveLength nm="400">8980000.000000</waveLength>
+                <waveLength nm="420">4970000.000000</waveLength>
+                <waveLength nm="440">2700000.000000</waveLength>
+                <waveLength nm="460">1660000.000000</waveLength>
+                <waveLength nm="480">1130000.000000</waveLength>
+                <waveLength nm="500">889000.000000</waveLength>
+                <waveLength nm="520">733000.000000</waveLength>
+                <waveLength nm="540">631000.000000</waveLength>
+                <waveLength nm="560">520000.000000</waveLength>
+                <waveLength nm="580">453000.000000</waveLength>
+                <waveLength nm="600">375000.000000</waveLength>
+                <waveLength nm="620">323000.000000</waveLength>
+                <waveLength nm="640">274000.000000</waveLength>
+                <waveLength nm="660">230000.000000</waveLength>
+                <waveLength nm="680">191000.000000</waveLength>
+                <waveLength nm="700">156000.000000</waveLength>
+                <waveLength nm="720">134000.000000</waveLength>
+                <waveLength nm="740">115000.000000</waveLength>
+                <waveLength nm="760">93000.000000</waveLength>
+                <waveLength nm="780">76000.000000</waveLength>
+                <waveLength nm="800">60600.000000</waveLength>
+                <waveLength nm="820">54400.000000</waveLength>
+                <waveLength nm="840">43200.000000</waveLength>
+                <waveLength nm="860">33500.000000</waveLength>
+                <waveLength nm="880">25200.000000</waveLength>
+                <waveLength nm="900">21500.000000</waveLength>
+            </alpha>
+        </Optical>
+        <Edge>0.2</Edge>
+        <Center>0.2</Center>
+    </Material>
+    <Material name="p-si" thickness="0.01">
+        <Electric>
+            <Dielectric>7.2</Dielectric>
+            <Eg>1.9</Eg>
+            <Affinity>3.8</Affinity>
+            <Nc>3.2e20</Nc>
+            <Nv>3.2e20</Nv>
+            <mobility_n>1</mobility_n>
+            <mobility_p>0.2</mobility_p>
+            <Nd>0</Nd>
+            <Na>4e19</Na>
+        </Electric>
+        <Defect number="2">
+            <AcceptorLike_G>
+                <type>0</type>
+                <distribution>2</distribution>
+                <density>4e18</density>
+                <energy>0.76</energy>
+                <width>0.2</width>
+                <sigN>1.2e-15</sigN>
+                <sigP>1.2e-13</sigP>
+            </AcceptorLike_G>
+            <DonorLike_G>
+                <type>1</type>
+                <distribution>2</distribution>
+                <density>4e18</density>
+                <energy>1.07</energy>
+                <width>0.2</width>
+                <sigN>1.2e-13</sigN>
+                <sigP>1.2e-15</sigP>
+            </DonorLike_G>
+            <Band_tail exist="1">
+                <Conduction>
+                    <Energy_level>0.065</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-16</Sigma_electron>
+                    <Sigma_hole>1.2e-14</Sigma_hole>
+                </Conduction>
+                <Valence>
+                    <Energy_level>0.01</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-14</Sigma_electron>
+                    <Sigma_hole>1.2e-16</Sigma_hole>
+                </Valence>
+                <Mid-gap_States exist="0" />
+            </Band_tail>
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <alpha unit="m-1">
+                <waveLength nm="350">35300000.000000</waveLength>
+                <waveLength nm="400">26550000.000000</waveLength>
+                <waveLength nm="420">19250000.000000</waveLength>
+                <waveLength nm="440">13980000.000000</waveLength>
+                <waveLength nm="460">9948000.000000</waveLength>
+                <waveLength nm="480">6907000.000000</waveLength>
+                <waveLength nm="500">4660000.000000</waveLength>
+                <waveLength nm="520">3092000.000000</waveLength>
+                <waveLength nm="540">1967000.000000</waveLength>
+                <waveLength nm="560">1314000.000000</waveLength>
+                <waveLength nm="580">950000.000000</waveLength>
+                <waveLength nm="600">566000.000000</waveLength>
+                <waveLength nm="620">375900.000000</waveLength>
+                <waveLength nm="640">262400.000000</waveLength>
+                <waveLength nm="660">195100.000000</waveLength>
+                <waveLength nm="680">153600.000000</waveLength>
+                <waveLength nm="700">131000.000000</waveLength>
+                <waveLength nm="720">112000.000000</waveLength>
+                <waveLength nm="740">100000.000000</waveLength>
+                <waveLength nm="760">86900.000000</waveLength>
+                <waveLength nm="780">77200.000000</waveLength>
+                <waveLength nm="800">68300.000000</waveLength>
+                <waveLength nm="820">61300.000000</waveLength>
+                <waveLength nm="840">54700.000000</waveLength>
+                <waveLength nm="860">47800.000000</waveLength>
+                <waveLength nm="880">43900.000000</waveLength>
+                <waveLength nm="900">38900.000000</waveLength>
+            </alpha>
+        </Optical>
+        <Edge>0.5</Edge>
+        <Center>0.5</Center>
+    </Material>
+    <Material name="i-si" thickness="0.424">
+        <Electric>
+            <Dielectric>11.9</Dielectric>
+            <Eg>1.85</Eg>
+            <Affinity>3.8</Affinity>
+            <Nc>3.2e20</Nc>
+            <Nv>3.2e20</Nv>
+            <mobility_n>10</mobility_n>
+            <mobility_p>2</mobility_p>
+            <Nd>0</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="2">
+            <AcceptorLike_G>
+                <type>0</type>
+                <distribution>2</distribution>
+                <density>3e15</density>
+                <energy>0.7</energy>
+                <width>0.2</width>
+                <sigN>1.2e-15</sigN>
+                <sigP>1.2e-13</sigP>
+            </AcceptorLike_G>
+            <DonorLike_G>
+                <type>1</type>
+                <distribution>2</distribution>
+                <density>3e15</density>
+                <energy>1.</energy>
+                <width>0.2</width>
+                <sigN>1.2e-13</sigN>
+                <sigP>1.2e-15</sigP>
+            </DonorLike_G>
+            <Band_tail exist="1">
+                <Conduction>
+                    <Energy_level>0.028</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-16</Sigma_electron>
+                    <Sigma_hole>1.2e-14</Sigma_hole>
+                </Conduction>
+                <Valence>
+                    <Energy_level>0.047</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-14</Sigma_electron>
+                    <Sigma_hole>1.2e-16</Sigma_hole>
+                </Valence>
+                <Mid-gap_States exist="0" />
+            </Band_tail>
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <alpha unit="m-1">
+                <waveLength nm="350">88150000.000000</waveLength>
+                <waveLength nm="400">57230000.000000</waveLength>
+                <waveLength nm="420">39940000.000000</waveLength>
+                <waveLength nm="440">29690000.000000</waveLength>
+                <waveLength nm="460">23030000.000000</waveLength>
+                <waveLength nm="480">18240000.000000</waveLength>
+                <waveLength nm="500">14450000.000000</waveLength>
+                <waveLength nm="520">11280000.000000</waveLength>
+                <waveLength nm="540">8569000.000000</waveLength>
+                <waveLength nm="560">6281000.000000</waveLength>
+                <waveLength nm="580">2887000.000000</waveLength>
+                <waveLength nm="600">1924000.000000</waveLength>
+                <waveLength nm="620">1251000.000000</waveLength>
+                <waveLength nm="640">757200.000000</waveLength>
+                <waveLength nm="660">428300.000000</waveLength>
+                <waveLength nm="680">217600.000000</waveLength>
+                <waveLength nm="700">98600.000000</waveLength>
+                <waveLength nm="720">35500.000000</waveLength>
+                <waveLength nm="740">31250.000000</waveLength>
+                <waveLength nm="760">27980.000000</waveLength>
+                <waveLength nm="780">13390.000000</waveLength>
+                <waveLength nm="800">6272.000000</waveLength>
+                <waveLength nm="820">2873.000000</waveLength>
+                <waveLength nm="840">1291.000000</waveLength>
+                <waveLength nm="860">571.500000</waveLength>
+                <waveLength nm="880">249.100000</waveLength>
+                <waveLength nm="900">100.000000</waveLength>
+            </alpha>
+        </Optical>
+        <Edge>0.5</Edge>
+        <Center>50</Center>
+    </Material>
+    <Material name="n-si" thickness="0.01">
+        <Electric>
+            <Dielectric>11.9</Dielectric>
+            <Eg>1.85</Eg>
+            <Affinity>3.8</Affinity>
+            <Nc>3.2e20</Nc>
+            <Nv>3.2e20</Nv>
+            <mobility_n>2</mobility_n>
+            <mobility_p>0.4</mobility_p>
+            <Nd>1e17</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="2">
+            <AcceptorLike_G>
+                <type>0</type>
+                <distribution>2</distribution>
+                <density>7.6e16</density>
+                <energy>0.7</energy>
+                <width>0.2</width>
+                <sigN>1.2e-15</sigN>
+                <sigP>1.2e-13</sigP>
+            </AcceptorLike_G>
+            <DonorLike_G>
+                <type>1</type>
+                <distribution>2</distribution>
+                <density>7.6e16</density>
+                <energy>1</energy>
+                <width>0.2</width>
+                <sigN>1.2e-13</sigN>
+                <sigP>1.2e-15</sigP>
+            </DonorLike_G>
+            <Band_tail exist="1">
+                <Conduction>
+                    <Energy_level>0.028</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-16</Sigma_electron>
+                    <Sigma_hole>1.2e-14</Sigma_hole>
+                </Conduction>
+                <Valence>
+                    <Energy_level>0.047</Energy_level>
+                    <G0>7e21</G0>
+                    <Sigma_electron>1.2e-14</Sigma_electron>
+                    <Sigma_hole>1.2e-16</Sigma_hole>
+                </Valence>
+                <Mid-gap_States exist="0" />
+            </Band_tail>
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <alpha unit="m-1">
+                <waveLength nm="350">88150000.000000</waveLength>
+                <waveLength nm="400">57230000.000000</waveLength>
+                <waveLength nm="420">39940000.000000</waveLength>
+                <waveLength nm="440">29690000.000000</waveLength>
+                <waveLength nm="460">23030000.000000</waveLength>
+                <waveLength nm="480">18240000.000000</waveLength>
+                <waveLength nm="500">14450000.000000</waveLength>
+                <waveLength nm="520">11280000.000000</waveLength>
+                <waveLength nm="540">8569000.000000</waveLength>
+                <waveLength nm="560">6281000.000000</waveLength>
+                <waveLength nm="580">2887000.000000</waveLength>
+                <waveLength nm="600">1924000.000000</waveLength>
+                <waveLength nm="620">1251000.000000</waveLength>
+                <waveLength nm="640">757200.000000</waveLength>
+                <waveLength nm="660">428300.000000</waveLength>
+                <waveLength nm="680">217600.000000</waveLength>
+                <waveLength nm="700">98600.000000</waveLength>
+                <waveLength nm="720">35500.000000</waveLength>
+                <waveLength nm="740">31250.000000</waveLength>
+                <waveLength nm="760">27980.000000</waveLength>
+                <waveLength nm="780">13390.000000</waveLength>
+                <waveLength nm="800">6272.000000</waveLength>
+                <waveLength nm="820">2873.000000</waveLength>
+                <waveLength nm="840">1291.000000</waveLength>
+                <waveLength nm="860">571.500000</waveLength>
+                <waveLength nm="880">249.100000</waveLength>
+                <waveLength nm="900">100.000000</waveLength>
+            </alpha>
+        </Optical>
+        <Edge>0.5</Edge>
+        <Center>0.5</Center>
+    </Material>
+</Device>

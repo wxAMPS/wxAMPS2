@@ -1,0 +1,21 @@
+<alpha unit="m-1">
+    <waveLength nm="300">27000000.000000</waveLength>
+    <waveLength nm="320">22000000.000000</waveLength>
+    <waveLength nm="340">18000000.000000</waveLength>
+    <waveLength nm="360">15000000.000000</waveLength>
+    <waveLength nm="380">13000000.000000</waveLength>
+    <waveLength nm="400">12000000.000000</waveLength>
+    <waveLength nm="420">10500000.000000</waveLength>
+    <waveLength nm="440">9800000.000000</waveLength>
+    <waveLength nm="460">8500000.000000</waveLength>
+    <waveLength nm="480">7000000.000000</waveLength>
+    <waveLength nm="500">4300000.000000</waveLength>
+    <waveLength nm="520">1600000.000000</waveLength>
+    <waveLength nm="540">10000.000000</waveLength>
+    <waveLength nm="560">100.000000</waveLength>
+    <waveLength nm="580">100.000000</waveLength>
+    <waveLength nm="600">100.000000</waveLength>
+    <waveLength nm="620">100.000000</waveLength>
+    <waveLength nm="640">100.000000</waveLength>
+    <waveLength nm="660">100.000000</waveLength>
+</alpha>

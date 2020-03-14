@@ -1,0 +1,60 @@
+
+	
+> Optical absorption of CIGS (CuInGaSe2 with EG = 1.15 eV, corresponding to 34 % Ga ?)
+> Data from Markus Gloeckler, "DEVICE PHYSICS OF Cu(In,Ga)Se2 THIN-FILM SOLAR CELLS"
+> Ph.D. Thesis, Colorado State University, 2005 (promoter: Jim Sites)
+> Used and described in: 
+> M. Gloeckler, A.Fahrenbruch and J.Sites, 
+> "Numerical modelling of CIGS and CdTe solar cells: setting the baseline", 
+> Proc. 3rd World Conference on Photovoltaic Energy Conversion 
+> (Osaka, Japan, may 2003), pp. 491-494, WCPEC-3, Osaka (2003).	
+lambda (nm)	alfa (1/m)
+300	3.69E+07
+320	3.69E+07
+340	3.69E+07
+360	3.69E+07
+380	3.69E+07
+400	3.64E+07
+420	3.30E+07
+440	2.67E+07
+460	2.14E+07
+480	1.83E+07
+500	1.58E+07
+520	1.41E+07
+540	1.28E+07
+560	1.18E+07
+580	1.08E+07
+600	1.01E+07
+620	9.53E+06
+640	8.77E+06
+660	8.31E+06
+680	7.86E+06
+700	7.35E+06
+720	6.87E+06
+740	6.55E+06
+760	6.23E+06
+780	5.93E+06
+800	5.65E+06
+820	5.30E+06
+840	4.94E+06
+860	4.60E+06
+880	4.11E+06
+900	3.72E+06
+920	3.55E+06
+940	3.32E+06
+960	3.09E+06
+980	2.84E+06
+1000	2.52E+06
+1020	2.11E+06
+1040	1.67E+06
+1060	1.24E+06
+1080	7.00E+05
+1100	2.95E+05
+1120	9.44E+04
+1140	3.02E+04
+1160	9.66E+03
+1180	3.09E+03
+1200	9.88E+02
+1220	3.16E+02
+1240	1.00E+02
+	
